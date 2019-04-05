@@ -1,0 +1,7 @@
+<launch>
+    <node name="stage" pkg="stage_ros" type="stageros" args="$(find lab5)/world/world/playground.world" />
+    <!-- node name="" pkg="lab5" type="astar1" output="screen"/ -->
+    <node name="goal_seeker_robot" pkg="lab5" type="astar1" output="screen">
+		<!-- <param name="robot" type="string" value="robot_0"/>	-->
+	</node>
+</launch>

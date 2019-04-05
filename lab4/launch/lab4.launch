@@ -1,0 +1,3 @@
+<launch>
+	<node name="lab4" pkg="lab4" type="bayes1" output="screen"/>
+</launch>
